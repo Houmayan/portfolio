@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
+
 /* Common shared font style */
 body {
   font-family: "Open Sans", sans-serif;
@@ -25,6 +21,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -47,6 +44,23 @@ nav li {
 }
 
 nav a {
+  text-decoration: none;
   margin-right: 50px;
   color: #474747;
+}
+
+/* header related style */
+.header{
+  background-color:  #FFF8F3;;
+}
+
+.banner{
+  padding: 30PX 30PX 30PX 150PX;
+  display: flex;
+  align-items: center;
+}
+
+.banner .profile-pic{
+  width: 500px;
+  
 }
