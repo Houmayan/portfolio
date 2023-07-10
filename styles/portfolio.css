@@ -28,9 +28,10 @@ body {
 }
 nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin: 0 200px;
+  align-items: center;
+  
+  margin: 0 150px;
 }
 
 .nav-title {
@@ -96,7 +97,7 @@ nav a {
 }
 
 .banner-description {
-  margin-top: 20px;
+  margin: 20px 0px;
 }
 
 /* main section starts */
@@ -173,4 +174,43 @@ main section {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 110px;
+}
+
+.resume-item-title {
+  color: #474747;
+
+  font-size: 25px;
+
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.resume-item-institute {
+  color: #757575;
+
+  font-size: 20px;
+
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.resume-item-description {
+  color: #757575;
+
+  font-size: 16px;
+
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
