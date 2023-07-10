@@ -15,7 +15,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   padding: 18px 35px;
-  margin-top: 50px;
+  
 }
 
 .text-primary {
@@ -102,6 +102,11 @@ nav a {
 
 /* main section starts */
 
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .about {
   margin: 150px 0px;
   padding: 130px;
@@ -114,4 +119,20 @@ nav a {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+}
+
+.about-info-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.info-title{
+  color: #757575;
+}
+
+.info-description{
+  color: #474747;
 }
